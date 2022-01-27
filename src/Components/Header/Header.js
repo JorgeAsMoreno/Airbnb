@@ -23,8 +23,10 @@ const Header = () => {
 
       <div className="header-right">
         <p>Become a host</p>
-        <LanguageIcon />
-        <ArrowDropDownIcon />
+        <span>
+          <LanguageIcon />
+          <ArrowDropDownIcon />
+        </span>
         <AccountCircleIcon />
       </div>
     </header>

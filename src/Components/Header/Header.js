@@ -1,9 +1,9 @@
 import React from "react";
-import SearchIcon from '@mui/icons-material/Search';
-import LanguageIcon from '@mui/icons-material/Language';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import './Header.scss'
+import SearchIcon from "@mui/icons-material/Search";
+import LanguageIcon from "@mui/icons-material/Language";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import "./Header.scss";
 
 const Header = () => {
   return (
@@ -15,9 +15,7 @@ const Header = () => {
       />
 
       <div className="header-center">
-        <input
-          type="text"
-        />
+        <input type="text" />
         <SearchIcon />
       </div>
 
@@ -30,7 +28,7 @@ const Header = () => {
         <AccountCircleIcon />
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

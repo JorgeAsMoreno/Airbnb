@@ -1,13 +1,13 @@
-import React from 'react'
-import Banner from '../Banner/Banner'
-import Card from '../Cards/Card'
-import './Home.scss'
+import React from "react";
+import Banner from "../Banner/Banner";
+import Card from "../Cards/Card";
+import "./Home.scss";
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <Banner />
-      <div className='home__section'>
+      <div className="home__section">
         <Card
           src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
           title="Online Experiences"
@@ -53,7 +53,7 @@ const Home = () => {
           description="Unique activities we can do together, led by a world of hosts."
         />
       </div>
-      <div className='home__section'>
+      <div className="home__section">
         <Card
           src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
           title="3 Bedroom Flat in Bournemouth"
@@ -100,7 +100,7 @@ const Home = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

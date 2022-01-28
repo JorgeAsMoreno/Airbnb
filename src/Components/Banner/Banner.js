@@ -1,10 +1,10 @@
-import React, {useState} from "react";
-import Button from '@mui/material/Button';
+import React, { useState } from "react";
+import Button from "@mui/material/Button";
 import Search from "../Search/Search";
-import './Banner.scss'
+import "./Banner.scss";
 
 const Banner = () => {
-  const [showDates, setShowDates] = useState(false)
+  const [showDates, setShowDates] = useState(false);
 
   return (
     <div className="banner">
@@ -15,19 +15,18 @@ const Banner = () => {
           onClick={() => setShowDates(!showDates)}
           variant="outlined"
         >
-          {
-            showDates ? "Hide"
-            : "Search Dates"
-          }
+          {showDates ? "Hide" : "Search Dates"}
         </Button>
       </div>
       <div className="banner-info">
         <h1>Get out and strech yout imagination</h1>
-        <h5>Plan a different kind of gateway to uncover the hidden gems near you</h5>
+        <h5>
+          Plan a different kind of gateway to uncover the hidden gems near you
+        </h5>
         <Button variant="outlined">Explore nearby</Button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

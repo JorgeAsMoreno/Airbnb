@@ -7,6 +7,11 @@
   top: 0;
   width: 100%;
   z-index: 100;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+
   &-icon {
     height: 40px;
     margin-left: 20px;
@@ -34,5 +39,13 @@
     justify-content: space-between;
     margin-right: 20px;
     width: 15vw;
+    @media screen and (max-width: 767px) {
+      justify-content: space-evenly;
+      margin: 0;
+      width: -webkit-fill-available;
+    }
+    @media screen and (min-width:768px) and (max-width: 1023px) {
+      width: 28vw;
+    }
   }
 }

@@ -21,7 +21,9 @@
     color: #fff;
     padding: 25vh 50px 40px 50px;
     width: 300px;
-
+    @media screen and (max-width: 767px) {
+      width: auto;
+    }
     h5 {
       margin-top: 10px;
     }
